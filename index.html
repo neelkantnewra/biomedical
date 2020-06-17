@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="wtNsXf7_xoyDJe92w9KfzS0seCQy7A5Ro-NDlruamZA" />
+    <meta content='Our main aim is to cover all education material along with self prepare notes and slides for quality education.' name='description'/>
+    <link rel="icon" href="icon.ico">
+    <link rel="stylesheet" href="index.css">
+    <title>Home-Biomedical</title>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <hr>
+    <h1>Biomedical Notes</h1>
+    <hr>
+
+    <!-- menu bar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="#news">Notes</a>
+    <a href="contact.html">Contact</a>
+    <a href="#about">Blog</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    </div>
+
+<!--image section-->
+<img class="one" src="home-image.webp" alt="Home-image" >
+
+<!-- question and answer-->
+
+<button class="accordion">How this site will help Biomedical student?</button>
+<div class="panel">
+  <p>Till now their are very few site which are working to provide you information about biomedical as a subject.Our main aim is to cover
+  all education material along with self prepare notes and slides for quality education. </p>
+</div>
+
+<button class="accordion">From where we can start in this site</button>
+<div class="panel">
+  <p>you can start with notes section there we feed all note.</p>
+</div>
+
+<button class="accordion">What is in blog section?</button>
+<div class="panel">
+  <p>In blog section we put latest information regarding biomedical engineering or material and news related with it. Soon we are
+  going to make it user friendly and you may be allowed to put your content.</p>
+</div>
+<script type="text/javascript">
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+<hr>
+<footer>
+  <p><center> &#169; copyright 2020 . All rights reserved</center></p>
+  <p><center><a href="index.html">Biomedical Notes</center></a></p>
+</footer>
+<hr>
+</html>
